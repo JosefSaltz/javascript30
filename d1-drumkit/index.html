@@ -5,42 +5,83 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, intial-scale=1">
     <link rel="stylesheet" href="./style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
   </head>
   <body>
     <header>
       <h1>Rhythm To The People!</h1>
     </header>
     
-    <div class="kit-selection-container">
-      <h3>Kit Selection</h3>
-      <ul>
-        <button type="radio">A</button>
-        <button type="radio">B</button>
-        <button type="radio">C</button>
-      </ul>
+    <div class="kit-selection">
+      <h1>Drum Kit Selector</h1>
+      <form action="">
+        <input id="kitA" name="kitSelectors" value="A" type="radio">
+        <label for="kitA">Kit A</label>
+        <input id="kitB" name="kitSelectors" value="B" type="radio">
+        <label for="kitB">Kit B</label>
+        <input id="kitC" name="kitSelectors" value="C" type="radio">
+        <label for="kitC">Kit C</label>
+      </form>
     </div>
 
     <div class="drumpads">
-      <div data-key="65" class="drumpad"><kbd>A</kbd><span class="sound">KICK</span></div>
-      <div data-key="83" class="drumpad"><kbd>S</kbd><span class="sound">SNARE</span></div>
-      <div data-key="68" class="drumpad"><kbd>D</kbd><span class="sound">ClOSED HAT</span></div>
-      <div data-key="70" class="drumpad"><kbd>F</kbd><span class="sound">OPEN HAT</span></div>
-      <div data-key="71" class="drumpad"><kbd>G</kbd><span class="sound">BOOM</span></div>
-      <div data-key="72" class="drumpad"><kbd>H</kbd><span class="sound">RIDE</span></div>
-      <div data-key="74" class="drumpad"><kbd>J</kbd><span class="sound">CLAP</span></div>
-      <div data-key="75" class="drumpad"><kbd>K</kbd><span class="sound">TOM</span></div>
-      <div data-key="76" class="drumpad"><kbd>L</kbd><span class="sound">PLINK</span></div>
+      <div data-key="65" class="drumpad"><kbd>A</kbd>
+        <span class="sound">KICK</span>
+      </div>
+
+      <div data-key="83" class="drumpad">
+        <kbd>S</kbd>
+        <span class="sound">SNARE</span>
+      </div>
+
+      <div data-key="68" class="drumpad">
+        <kbd>D</kbd>
+        <span class="sound">ClOSED HAT</span>
+      </div>
+
+      <div data-key="70" class="drumpad">
+        <kbd>F</kbd>
+        <span class="sound">OPEN HAT</span>
+      </div>
+
+      <div data-key="71" class="drumpad">
+        <kbd>G</kbd>
+        <span class="sound">BASS</span>
+      </div>
+
+      <div data-key="72" class="drumpad">
+        <kbd>H</kbd>
+        <span class="sound">RIDE</span>
+      </div>
+
+      <div data-key="74" class="drumpad">
+        <kbd>J</kbd>
+        <span class="sound">CLAP</span>
+      </div>
+
+      <div data-key="75" class="drumpad">
+        <kbd>K</kbd>
+        <span class="sound">SHOUT</span>
+      </div>
+
+      <div data-key="76" class="drumpad">
+        <kbd>L</kbd>
+        <span class="sound">PLINK</span>
+      </div>
     </div>
 
-    <audio data-key="65" src="./sounds/kitA/"></audio>
-    <audio data-key="83" src="./sounds/kitA/"></audio>
-    <audio data-key="68" src="./sounds/kitA/"></audio>
-    <audio data-key="70" src="./sounds/kitA/"></audio>
-    <audio data-key="71" src="./sounds/kitA/"></audio>
-    <audio data-key="72" src="./sounds/kitA/"></audio>
-    <audio data-key="74" src="./sounds/kitA/"></audio>
-    <audio data-key="75" src="./sounds/kitA/"></audio>
-    <audio data-key="76" src="./sounds/kitA/"></audio>
+    <audio data-key="65" src="./sounds/kitA/Kick.wav"></audio>
+    <audio data-key="83" src="./sounds/kitA/Snare.wav"></audio>
+    <audio data-key="68" src="./sounds/kitA/Closed Hat.wav"></audio>
+    <audio data-key="70" src="./sounds/kitA/Open Hat.wav"></audio>
+    <audio data-key="71" src="./sounds/kitA/Bass.wav"></audio>
+    <audio data-key="72" src="./sounds/kitA/Ride.wav"></audio>
+    <audio data-key="74" src="./sounds/kitA/Clap.wav"></audio>
+    <audio data-key="75" src="./sounds/kitA/Shout.wav"></audio>
+    <audio data-key="76" src="./sounds/kitA/Plink.wav"></audio>
 
     <script src="./script.js"></script>
   </body>

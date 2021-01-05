@@ -6,6 +6,7 @@ html {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  min-height: 100vh;
   /*-------------------*/ 
 }
 
@@ -23,15 +24,20 @@ header {
 }
 
 header h1 {
-  font-size: 60px;
+  font-size: 100px;
   text-align: center;
+}
+
+.kit-selection {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .drumpads {
   /*Wes Bos Boilerplate*/ 
   display: flex;
   flex: 1;
-  min-height: 100vh;
+ 
   align-items: center;
   justify-content: center;
   /*-------------------*/ 
@@ -65,6 +71,7 @@ kbd {
   /*Wes Bos Boilerplate*/
   display: block;
   font-size: 4rem;
+  font-family: Helvetica;
   /*-------------------*/ 
 }
 
@@ -73,6 +80,6 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #50c6f1;
   /*-------------------*/ 
 }
