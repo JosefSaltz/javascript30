@@ -1,0 +1,66 @@
+html {
+   /*Wes Bos Boilerplate*/ 
+  font-size: 10px;
+  background: url("./img/backgrounds/Lbackground.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+   /*-------------------*/ 
+}
+
+body,html {
+  /*Wes Bos Boilerplate*/ 
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Helvetica;
+  /*-------------------*/ 
+}
+
+header {
+  margin-top: 20vh;
+}
+
+header h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.drumpads {
+  /*Wes Bos Boilerplate*/ 
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /*-------------------*/ 
+}
+
+.drumpad {
+  border: solid .4rem white;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  /*Wes Bos Boilerplate*/
+  /*-------------------*/ 
+}
+
+kbd {
+  /*Wes Bos Boilerplate*/
+  /*-------------------*/ 
+}
+
+.sound {
+  /*Wes Bos Boilerplate*/
+  /*-------------------*/ 
+}
