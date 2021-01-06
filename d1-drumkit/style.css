@@ -31,6 +31,11 @@ header h1 {
 .kit-selection {
   display: flex;
   justify-content: flex-end;
+  margin-right: 100px;
+}
+
+.kitselection * {
+  
 }
 
 .drumpads {
@@ -82,4 +87,8 @@ kbd {
   letter-spacing: .1rem;
   color: #50c6f1;
   /*-------------------*/ 
+}
+
+.selected {
+  border: solid thin white;
 }

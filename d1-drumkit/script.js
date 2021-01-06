@@ -42,7 +42,8 @@ function switchPath(oldpath, val) {
 kitButtons.forEach( (el) => {
   el.onclick = (e) => {
     const val = e.target.value;
-    
+    this.classList.add('selected');
+
     audioElements.forEach( function(audioElmnt) {
       let oldpath = audioElmnt.getAttribute("src");
       audioElmnt.setAttribute("src", switchPath(oldpath, val));
