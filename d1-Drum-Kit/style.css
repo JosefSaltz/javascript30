@@ -1,0 +1,94 @@
+html {
+  /*Wes Bos Boilerplate*/ 
+  font-size: 10px;
+  background: url("./img/backgrounds/Lbackground.jpg");
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  /*-------------------*/ 
+}
+
+body,html {
+  /*Wes Bos Boilerplate*/ 
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Helvetica;
+  /*-------------------*/ 
+}
+
+header {
+  margin-top: 20vh;
+}
+
+header h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+.kit-selection {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+
+.kitselection * {
+  
+}
+
+.drumpads {
+  /*Wes Bos Boilerplate*/ 
+  display: flex;
+  flex: 1;
+ 
+  align-items: center;
+  justify-content: center;
+  /*-------------------*/ 
+}
+
+.drumpad {
+  /*Wes Bos Boilerplate*/
+  border: solid .4rem white;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+  /*-------------------*/ 
+}
+
+.playing {
+  /*Wes Bos Boilerplate*/
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+  /*-------------------*/ 
+}
+
+kbd {
+  /*Wes Bos Boilerplate*/
+  display: block;
+  font-size: 4rem;
+  font-family: Helvetica;
+  /*-------------------*/ 
+}
+
+.sound {
+  /*Wes Bos Boilerplate*/
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #50c6f1;
+  /*-------------------*/ 
+}
+
+.selected {
+  border: solid thin white;
+}
