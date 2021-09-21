@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T01:33:46.601Z" agent="5.0 (Windows)" etag="muBWcX3n2KVYxEtMAVVx" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T02:19:40.138Z" agent="5.0 (Windows)" etag="-lg16QjNbtC58nkcQnb8" version="15.1.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1371" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1163" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -35,22 +35,50 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b6L-lH3KIi2RuOBNaned-14" value="Send Verification Email using firebase with provided email" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="680" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="690" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b6L-lH3KIi2RuOBNaned-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b6L-lH3KIi2RuOBNaned-18" target="b6L-lH3KIi2RuOBNaned-20">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="b6L-lH3KIi2RuOBNaned-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b6L-lH3KIi2RuOBNaned-18" target="b6L-lH3KIi2RuOBNaned-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="b6L-lH3KIi2RuOBNaned-18" value="User cannot login until email clicked. Upon click verified is set to 1 in firebase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="680" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="690" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b6L-lH3KIi2RuOBNaned-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b6L-lH3KIi2RuOBNaned-20" target="b6L-lH3KIi2RuOBNaned-22">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="b6L-lH3KIi2RuOBNaned-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b6L-lH3KIi2RuOBNaned-20" target="b6L-lH3KIi2RuOBNaned-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="360" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="b6L-lH3KIi2RuOBNaned-20" value="After clicking user is sent to password creation screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="500" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="b6L-lH3KIi2RuOBNaned-20" value="User Clicks Link, Firebase uses signInEmail method" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b6L-lH3KIi2RuOBNaned-22" value="Upon password completion and validation user sent to Clients Dashboard view" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="190" width="120" height="80" as="geometry" />
+          <mxGeometry x="120" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b6L-lH3KIi2RuOBNaned-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b6L-lH3KIi2RuOBNaned-31" target="b6L-lH3KIi2RuOBNaned-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6L-lH3KIi2RuOBNaned-40" value="PW Null" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b6L-lH3KIi2RuOBNaned-39">
+          <mxGeometry x="-0.2888" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6L-lH3KIi2RuOBNaned-31" value="DB Query to see if password is null" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b6L-lH3KIi2RuOBNaned-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b6L-lH3KIi2RuOBNaned-38" target="b6L-lH3KIi2RuOBNaned-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6L-lH3KIi2RuOBNaned-38" value="User is routed to a password creation link" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b6L-lH3KIi2RuOBNaned-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b6L-lH3KIi2RuOBNaned-41" target="b6L-lH3KIi2RuOBNaned-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6L-lH3KIi2RuOBNaned-41" value="User submits password to Firebase authentication method [AND] PHP John&#39;s hash method to be stored in backend DB" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="390" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
